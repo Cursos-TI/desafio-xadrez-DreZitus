@@ -6,21 +6,27 @@
 
 int main() {
     
-
+    //Movimento Torre
     for(int i = 0; i < 5; i++){
         printf("Torre: Direita \n");
     }
 
-    for(int i = 0; i < 5; i++){
-        for(int i = 0; i < 2; i++){
-            printf("Bispo: esquerda");
-        }
-        print("Bispo: cima");
+    //Movimento Bispo
+    for(int i = 0; i < 3; i++){
+        printf("Bispo: esquerda\n");
+        printf("Bispo: cima\n");
     }
 
+    //Movimento Rainha
+    for(int i = 0; i < 5; i++){
+        printf("Bispo: esquerda\n");
+        printf("Bispo: cima\n");
+    }
 
+    
     int movimentocompleto = 1;
 
+    //Movimento do Cavalo com loop aninhado
     while (movimentocompleto--){
         for(int i = 0; i < 2; i++){
             printf("Cavalo: cima\n");
