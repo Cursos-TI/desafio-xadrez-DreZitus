@@ -12,15 +12,18 @@ int main() {
     }
 
     //Movimento Bispo
-    for(int i = 0; i < 3; i++){
-        printf("Bispo: esquerda\n");
-        printf("Bispo: cima\n");
+    for(int i = 0; i < 5; i++){
+        printf("Bispo: Cima, Direita\n");
+
     }
 
     //Movimento Rainha
-    for(int i = 0; i < 5; i++){
-        printf("Bispo: esquerda\n");
-        printf("Bispo: cima\n");
+
+    int passosRainha = 8;
+
+    while(passosRainha > 0){
+        printf("Rainha: Esquerda \n");
+        passosRainha--;
     }
 
     
