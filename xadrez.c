@@ -14,15 +14,12 @@ void movimentoTorre(int casas){
 void movimentoBispo(){
     int movimentoCompleto = 1;
     while (movimentoCompleto--){
-        for (int i = 0, j = 5; i < j || j > i; i++, j--)
-        {
+        for (int i = 0, j = 5; i < j || j > i; i++, j--){
             printf("Bispo: Direita\n");
             printf("Bispo: cima\n");
         }
-        
+                                                                                            
     }
-    
-
 }
 
 //Movimento Rainha
@@ -33,28 +30,25 @@ void movimentoRainha(){
         printf("Rainha: Esquerda\n");
         passosRainha--;
     }
-    
+
 }
 
 //Movimento Cavalo
 void movimentoCavalo(){
     int movimentocompleto = 1;
-
     while (movimentocompleto--){
         for(int i = 0, j = 3; i < j || j > i; i++, j--){
             printf("Cavalo: cima\n");
         }
-        printf("Cavalo: Direita\n");
+    printf("Cavalo: Direita\n");
     }
-
 }
 
 int main() {
-
     movimentoTorre(5);
     movimentoBispo();
     movimentoRainha();
     movimentoCavalo();
 
     return 0;
-}
+}                                                                                                
